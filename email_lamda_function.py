@@ -39,7 +39,7 @@ def lambda_handler(event, context):
 		print(e.response['Error']['Message'])
 	else:
 		print("Email Sent Successfuly! MessageID: "),
-		print(reposnse['MessageId'])
+		print(response['MessageId'])
 
 
 
